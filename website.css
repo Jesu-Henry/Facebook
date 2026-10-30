@@ -1,0 +1,255 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.logo {
+    padding: 40px;
+    text-align: left;
+}
+
+.logo h1 {
+    color: #1877f2;
+    font-size: 36px;
+    margin: 0;
+}
+
+.logo p {
+    margin-top: 10px;
+    color: #65676b;
+}
+
+.login-form {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 25px;
+    justify-content: center;
+    border-radius: 8px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: white;
+    height: 220.6px;
+    border: 8px;
+    width: 250px;
+    justify-self: center;
+}
+
+.login-form input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #c2bfbf;
+    border-radius: 5px;
+    width: 240px;
+}
+
+input:hover {
+    border-color: #1877f2;
+}
+
+.login-form {
+    border-radius: 3px;
+    border: 1rem;
+}
+
+.create-account {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.loginButton {
+    width: 263px;
+    border-radius: 5px;
+    background-color: blue;
+    border: 1px solid blue;
+    height: 33px;
+    margin-left: 2px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.loginButton:hover {
+    background-color: #1877f2;
+    opacity: 0.5;
+}
+.loginButton:active{
+    opacity: 0.8;
+}
+
+.forgot-password {
+    margin-top: 0;
+    padding-left: 78px;
+    color: blue;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    color: black;
+}
+.forgot-password:active{
+    opacity: 0.8;
+}
+.create-account {
+    background-color: rgb(4, 184, 4);
+    margin-top: 5px;
+    width: 150px;
+    height: 35px;
+    margin-left: 60px;
+    border-radius: 3px;
+    border: 0;
+}
+
+.create-account:hover {
+    background-color: rgb(3, 77, 3);
+    opacity: 0.5;
+}
+.create-account:active{
+    opacity: 0.8;
+}
+hr {
+    background-color: black;
+    width: 250px;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
+
+ @media (max-width: 1199px) {
+.mobile-nav-toggle {
+  color: var(--nav-color);
+  font-size: 28px;
+  line-height: 0;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.navmenu {
+  padding: 0;
+  z-index: 9997;
+}
+
+.navmenu ul {
+  display: none;
+  list-style: none;
+  position: absolute;
+  inset: 60px 20px 20px 20px;
+  padding: 10px 0;
+  margin: 0;
+  border-radius: 6px;
+  background-color: var(--nav-mobile-background-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  box-shadow: none;
+  overflow-y: auto;
+  transition: 0.3s;
+  z-index: 9998;
+}
+
+.navmenu a,
+.navmenu a:focus {
+  color: var(--nav-dropdown-color);
+  padding: 10px 20px;
+  font-family: var(--nav-font);
+  font-size: 17px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+
+.navmenu a i,
+.navmenu a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+}
+
+.navmenu a i:hover,
+.navmenu a:focus i:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.navmenu a:hover,
+.navmenu .active,
+.navmenu .active:focus {
+  color: var(--nav-dropdown-hover-color);
+}
+
+.navmenu .active i,
+.navmenu .active:focus i {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  transform: rotate(180deg);
+}
+
+.navmenu .dropdown ul {
+  position: static;
+  display: none;
+  z-index: 99;
+  padding: 10px 0;
+  margin: 10px 20px;
+  background-color: var(--nav-dropdown-background-color);
+  transition: all 0.5s ease-in-out;
+}
+
+.navmenu .dropdown ul ul {
+  background-color: rgba(33, 37, 41, 0.1);
+}
+
+.navmenu .dropdown>.dropdown-active {
+  display: block;
+  background-color: rgba(33, 37, 41, 0.03);
+}
+
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav-toggle {
+  color: #fff;
+  position: absolute;
+  font-size: 32px;
+  top: 15px;
+  right: 15px;
+  margin-right: 0;
+  z-index: 9999;
+}
+
+.mobile-nav-active .navmenu {
+  position: fixed;
+  overflow: hidden;
+  inset: 0;
+  background: rgba(33, 37, 41, 0.8);
+  transition: 0.3s;
+}
+
+.mobile-nav-active .navmenu>ul {
+  display: block;
+}
+} 

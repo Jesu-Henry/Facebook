@@ -1,0 +1,226 @@
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        justify-self: center;
+    }
+    
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+    }
+    
+    .birthday-select {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 9px;
+        margin-left: 13px;
+    }
+    
+    select {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 70px;
+    }
+    
+    #year {
+        width: 75px;
+    }
+    
+    .info {
+        cursor: pointer;
+        font-size: 10px;
+        color: #888;
+        margin-left: 3px;
+        border-radius: 20px;
+        border: 1px;
+        border-color: black;
+        background-color: rgb(109, 103, 103);
+        color: whitesmoke;
+        text-overflow: ellipsis;
+        border-style: groove;
+    }
+    
+    .cre {
+        justify-content: center;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        background-color: white;
+        align-content: center;
+        border-width: 5px;
+        width: 360px;
+        height: 520px;
+        font-display: inherit;
+    }
+    
+    #month,
+    #day,
+    #year {
+        height: 35px;
+        width: 103.6px;
+        padding-left: 3px;
+        text-justify: center;
+    }
+    
+    .birth {
+        padding-top: 10px;
+        padding-left: 13px;
+        color: #888;
+        font-size: smaller;
+    }
+    
+    .gender {
+        display: flex;
+        gap: 10px;
+        margin-left: 13px;
+    }
+    
+    #gend {
+        padding-bottom: 4px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 96.4px;
+        height: 21px;
+        padding-top: 2px;
+        padding-left: 5px;
+        color: #3d3d3d;
+        font-size: medium;
+    }
+    
+    .der {
+        padding-left: 13px;
+        margin-top: 0px;
+        color: #888;
+        font-size: smaller;
+    }
+    
+    .in {
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+    
+    .ink {
+        margin-left: 47px;
+        margin-top: 5px;
+    }
+    
+    .inter {
+        margin-left: 27px;
+        margin-top: 5px;
+    }
+    
+    .create {
+        justify-content: center;
+    }
+    
+    h3 {
+        padding-top: 9px;
+        margin: 0;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .easy {
+        margin-top: 0;
+        padding-top: 0;
+        text-align: center;
+        color: #888;
+    }
+    
+    .name {
+        margin-left: 13px;
+        border-width: 3px;
+        border-color: #ccc solid;
+    }
+    
+    .last,
+    .ast {
+        width: 150px;
+        height: 28px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        border-width: 1px;
+    }
+    
+    .last {
+        margin-left: 6px;
+        padding-left: 6px;
+    }
+    
+    .ast {
+        padding-left: 8px;
+    }
+    
+    #in {
+        margin-left: 13px;
+    }
+    
+    #password {
+        margin-top: 8px;
+        width: 320.3px;
+        border-radius: 5px;
+        border-width: 1px;
+        border: 1px solid #ccc;
+        height: 29px;
+        padding-left: 6px;
+    }
+    
+    #number {
+        width: 320.3px;
+        border: 1px solid #ccc;
+        border-width: 1px;
+        border-radius: 5px;
+        height: 29px;
+        padding-left: 6px;
+    }
+    
+    .learn,
+    .terms {
+        font-size: smaller;
+        padding-left: 13px;
+        color: #3d3d3d;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    a {
+        color: rgb(24, 24, 223);
+        text-decoration: none;
+    }
+    
+    button {
+        color: white;
+        background-color: rgb(0, 184, 0);
+        cursor: pointer;
+        border: 1px solid rgb(0, 192, 0);
+        border-radius: 5px;
+        border-width: 1px;
+        width: 160px;
+        height: 28px;
+        justify-self: center;
+        border-collapse: collapse;
+        margin-inline: 100px;
+        margin-bottom: none;
+        margin-top: 8px;
+    }
+    
+    button:hover {
+        background-color: darkgreen;
+    }
+    
+    #an {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    
+    a:hover {
+        color: #3d3d3d;
+    }

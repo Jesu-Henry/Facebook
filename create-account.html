@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/create.css"/>
+    <link rel="Stylesheet" href="styles/demo.css" />
+    <link rel="Stylesheet" href="styles/intlTelInput.css" />
+    <link rel="Stylesheet" href="styles/intlTelInput.min.css" />
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="d1"> 
+        <form>
+            <input type="text" placeholder="First Name" class="firstName">
+            <input type="text" placeholder="Last Name" class="lastName">
+            <input type="tel" id="phone" placeholder="Phone Number" class="phoneNumber">
+            <input type="email" placeholder="Email" class="mail">
+            <input type="date" placeholder="Date of Birth" class="birth">
+            <select>
+                <option value="">Male</option>
+                <option value="">Female</option>
+            </select>
+            <input type="password" placeholder="Password" class="password">
+            <input type="password" placeholder="Repeat Password" class="repeat">
+            <button class="bttn">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="javascript/intlTelInput.js"></script>
+<script>
+     var input = document.querySelector('#phone');
+     window.intlTelInput(input,{});
+</script>
+</html>
